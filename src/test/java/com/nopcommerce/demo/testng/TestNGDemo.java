@@ -27,7 +27,7 @@ public class TestNGDemo {
         System.out.println("I am in after Test");
     }
 
-    @Test
+    @Test (groups = {"sanity"})
     public void test1(){
         System.out.println("I am in test1");
     }

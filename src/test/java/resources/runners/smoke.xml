@@ -3,12 +3,12 @@
 <suite name="Sanity Suite" verbose="1">
     <groups>
         <run>
-            <include name="sanity"></include>
+            <include name="smoke"></include>
         </run>
     </groups>
     <test name="sanity">
         <classes>
-            <class name="com.nopcommerce.demo.testng.TestNGGrouping"></class>
+
             <class name="com.nopcommerce.demo.testng.TestNGDemo"></class>
         </classes>
     </test>

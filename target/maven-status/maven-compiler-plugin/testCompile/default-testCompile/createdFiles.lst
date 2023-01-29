@@ -1,0 +1,14 @@
+com\nopcommerce\demo\testng\TestNGPriority.class
+com\nopcommerce\demo\testsuite\LoginPageTestWithParameterAndParallel.class
+com\nopcommerce\demo\testng\TestNGListenersDemo.class
+com\nopcommerce\demo\testsuite\LoginPageTest.class
+com\nopcommerce\demo\testsuite\LoginPageTestWithDataProvider.class
+com\nopcommerce\demo\testng\TestNGDemo.class
+com\nopcommerce\demo\testng\TestNGListeners.class
+com\nopcommerce\demo\testng\TestNGParameterDemo.class
+com\nopcommerce\demo\testng\TestNGGrouping.class
+com\nopcommerce\demo\testng\RetryAnalyser.class
+com\nopcommerce\demo\testng\TestNGSoftAssert.class
+com\nopcommerce\demo\testbase\TestBase.class
+com\nopcommerce\demo\testng\TestNGRetryFailedDemo.class
+resources\testdata\TestData.class

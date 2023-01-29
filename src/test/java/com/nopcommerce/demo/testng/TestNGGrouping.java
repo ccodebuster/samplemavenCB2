@@ -7,17 +7,17 @@ import org.testng.annotations.Test;
  */
 public class TestNGGrouping {
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginTest1() {
         System.out.println("Running test - loginTest1");
     }
 
-    @Test
+    @Test (groups = {"regression"})
     public void loginTest2() {
         System.out.println("Running test - loginTest2");
     }
 
-    @Test
+    @Test (groups = {"sanity"})
     public void loginTest3() {
         System.out.println("Running test - loginTest3");
     }
@@ -27,7 +27,7 @@ public class TestNGGrouping {
         System.out.println("Running test - loginTest4");
     }
 
-    @Test
+    @Test (groups = {"sanity"})
     public void regressionTest1() {
         System.out.println("Running test - regressionTest1");
     }
@@ -37,7 +37,7 @@ public class TestNGGrouping {
         System.out.println("Running test - computerTest1");
     }
 
-    @Test
+    @Test (groups = {"smoke"})
     public void computerTest2() {
         System.out.println("Running test - computerTest2");
     }
