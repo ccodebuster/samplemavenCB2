@@ -13,7 +13,7 @@ public class LoginPageTest extends TestBase {
     HomePage homepage = new HomePage();
     LoginPage loginPage=new LoginPage();
 
-    @Test (groups = "sanity")
+    @Test (groups = "smoke")
     public void verifyUserShouldNavigateToLoginPage() {
         homepage.clickOnLoginLink();
         String actualMessage=loginPage.getWelcomeText();

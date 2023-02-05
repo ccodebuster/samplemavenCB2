@@ -3,13 +3,13 @@
 <suite name="Sanity Suite" verbose="1">
     <groups>
         <run>
-            <include name="smoke"></include>
+            <exclude name="smoke"></exclude>
+
         </run>
     </groups>
     <test name="sanity">
         <classes>
-
-            <class name="com.nopcommerce.demo.testng.TestNGDemo"></class>
+            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
         </classes>
     </test>
     

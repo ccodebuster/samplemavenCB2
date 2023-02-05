@@ -34,5 +34,12 @@ public class LoginPage extends Utility {
     }
 
 
+public void loginToApplication(String username, String password){
+        enterEmailId(username);
+        enterPassword(password);
+        clickOnLoginButton();
+
+}
+
 
 }

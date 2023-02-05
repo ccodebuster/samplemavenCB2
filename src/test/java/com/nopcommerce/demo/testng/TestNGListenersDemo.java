@@ -2,12 +2,13 @@ package com.nopcommerce.demo.testng;
 
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /**
  * Created by Bhavesh
  */
-//@Listeners(TestNGListeners.class)
+@Listeners(TestNGListeners.class)
 public class TestNGListenersDemo {
 
     @Test
