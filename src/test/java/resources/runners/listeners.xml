@@ -5,7 +5,7 @@
         <listener class-name="com.nopcommerce.demo.testng.TestNGListeners"></listener>
     </listeners>
     
-    <test name="Listeners test">
+    <test name="Login test">
         <classes>
             <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
         </classes>

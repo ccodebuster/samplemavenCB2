@@ -4,7 +4,6 @@
     <groups>
         <run>
             <exclude name="smoke"></exclude>
-
         </run>
     </groups>
     <test name="sanity">
